@@ -2,11 +2,30 @@
 <html style="background-color: black;">
     <head><title>LYRICS</title>
     <style>
-        html{
-            background-image:url("Andrew-Tate-1.jpg");background-repeat: no-repeat;height:100%;background-size:cover;background-attachment:fixed;
-        }
+       body {
+  background-color: #333;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+}
+
+pre {
+  font-family:arial black;
+  background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  animation: rainbow-animation -1s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+<div class="text-rainbow-animation">RAINBOW TEXT</div>
         pre{
-            color: violet;
             font-weight: bolder;
             font:italic;
             text-align: center;
@@ -15,7 +34,7 @@
         }
         .andrew
         {
-            color:red;
+
             font-weight: 900;
             font-size: medium;
             font-style: inherit;
@@ -25,11 +44,12 @@
 
         }
         h1{
+            text-align:right;
             color: black;
             font-weight: bolder;
         }
         .kik{
-            color:pink;
+
             font-weight: 900;
             font-size: medium;
             font-style: inherit;

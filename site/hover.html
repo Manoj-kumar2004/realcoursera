@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head> <title> PSUEDO SELECTORS</title>
+    <H1 style="text-align: center;"> ELEMENTS</H1>
+    <style>
+        div li{
+            color: black;
+            list-style: none;
+            text-align: center;
+        }
+        div li a:link,a:visited
+        {   background-color: aqua;
+            color: magenta;
+         
+        }
+        div li a:active,a:hover
+        {
+            background-color: purple;
+            color: yellowgreen;
+
+        }
+
+        section div:nth-child(odd){
+            background-color: beige;
+
+        }
+        section  div:nth-child(even):hover{
+            background-color: crimson;
+            cursor: pointer;
+        }
+    </style>
+
+
+</head>
+    <body>
+        <div>
+        <ul>
+            <li> <a href="https:www.youtube.com" target="_blank">link1 </a></li>
+            <li> <a href="https:www.youtube.com">link1 </a></li>
+            <li> <a href="https:www.youtube.com">link1 </a></li>
+            <li> <a href="https:www.youtube.com">link1 </a></li>
+            <li> <a href="https:www.youtube.com">link1 </a></li>
+        </ul></div>
+        <section>
+            <div>div1</div>
+            <div>div1</div>
+            <div>div1</div>
+            <div>div1</div>
+            <div>div1</div>
+            <div>div1</div>
+            <div>div1</div>
+
+            <div>div1</div>
+            <div>div1</div>
+            <div>div1</div>
+            <div>div1</div>
+
+            <div>div1</div>
+            <div>div1</div>
+            <div>div1</div>
+            <div>div1</div>
+            <div>div1</div>
+            <div>div1</div>
+            <div>div1</div>
+
+        </section>
+    </body>
+</html>
